@@ -1,0 +1,15 @@
+CREATE TABLE items (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT
+    name VARCHAR (20) NOT NULL
+    amount VARCHAR (20) NOT NULL
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+INSERT INTO items (name, amount)
+VALUES
+('Tomatoes', '3'),
+('Grapes', '1'),
+('Noodles', '2'),
+('Yogurts', '3'),
+('Peppers', '2'),
+('Milk', '2');
